@@ -1,0 +1,14 @@
+name: floating-point-statistics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14.6
+  - numpy=2.5.2
+  - pandas=3.0.5
+  - jupyter=1.1.1
+  - notebook=7.5.7
+  - scipy=1.18.0
+  - matplotlib=3.11.0
+  - matplotlib-inline=0.2.2
+  - seaborn=0.13.2 

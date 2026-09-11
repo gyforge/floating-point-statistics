@@ -1,6 +1,18 @@
-# floating-point-statistics
+# From Unexpected Correlation to Floating-Point Arithmetic in NumPy and pandas
 
-Exploring floating-point effects in standard deviation and Pearson correlation with NumPy and pandas.
+This project began with an unexpected result while implementing lagged Pearson
+correlation: constant input vectors could produce finite correlation values,
+including values close to +1 or -1, even though Pearson correlation is
+mathematically undefined for zero-variance inputs.
+
+Understanding that result led to a deeper investigation of floating-point
+mean-centering and standard deviation. Parts I and II document that branch,
+including differences between NumPy and pandas and the role of floating-point
+precision and reduction algorithms.
+
+The following notebooks return to the original correlation problem and examine
+how tiny numerical residuals can produce apparently strong positive or negative
+correlations.
 
 ## Notebooks
 

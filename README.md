@@ -76,3 +76,13 @@ jupyter notebook
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
+## Author
+
+**Alexandros Gyömber**
+
+MSc in Electrical Engineering
+
+Interests: Machine Learning, Deep Learning,
+Numerical Computing and Data Analysis.
+
+[LinkedIn](https://www.linkedin.com/in/alexandros-zoltan-gyomber-b6293b83)
